@@ -5,4 +5,8 @@ angular.module('app', [])
 
 function ProductListController() {
   this.name = 'Hello';
-}
+};
+
+function ProductListService() {
+  
+};

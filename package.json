@@ -8,8 +8,9 @@
   "scripts": {
     "start": "nf start",
     "api": "node api.js",
-    "build": "webpack",
-    "client": "webpack-dev-server --port 3000"
+    "build": "rm -rf dist && webpack",
+    "client": "webpack-dev-server --port 3000",
+    "test": "jasmine"
   },
   "dependencies": {
     "angular": "^1.6.4",
@@ -21,7 +22,14 @@
     "file-loader": "^0.11.1",
     "font-awesome": "^4.7.0",
     "foreman": "^2.0.0",
+    "jasmine-core": "^2.6.1",
     "json-server": "^0.10.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-webpack": "^2.0.3",
     "live-server": "^1.2.0",
     "lodash": "^4.17.4",
     "style-loader": "^0.17.0",
