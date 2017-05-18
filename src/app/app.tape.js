@@ -1,6 +1,14 @@
-import tape from 'tape';
+import test from 'tape';
+import { ProductListController } from './controllers/ProductListController';
 
-tape('App wired', (t) => {
-  t.equal(1, 2)
-  t.end()
+test('ProductListController', (t) => {
+  t.plan(2);
+
+  t.equal(ProductListController.name(), 'Hello')
+
+  t.test('name() returns "Hello"', (assert) => {
+    assert.equal(ProductListController.name(), 'Hello')
+    assert.end();
+  });
+  t.end();
 });
