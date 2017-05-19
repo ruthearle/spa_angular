@@ -5,7 +5,7 @@ var glob = require("glob");
 module.exports = {
   target: 'node',
 
-  entry: glob.sync('./src/app/*.tape.js'),
+  entry: glob.sync('./src/app/**/*.test.js'),
 
   output: {
     filename: '[name].test.js',

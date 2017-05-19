@@ -1,8 +1,15 @@
-const ProductListController = {
-  name: function () {
-    return 'Hello';
+const ProductListController = function(title, price, description, quantity) {
+  this.title = title;
+  this.price = price;
+  this.description = description;
+  this.quantity = quantity;
+
+  this.blah = () => {
+    return 'blah'
   }
 }
 
-export { ProductListController }
+module.exports = {
+  ProductListController
+}
 
