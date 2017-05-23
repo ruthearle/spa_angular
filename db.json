@@ -1,6 +1,7 @@
 {
-  "WomensFootwear": [
+  "data" : [
     {
+      "category": "Women's Footwear",
       "id": "1",
       "productName": "Almond Toe Court Shoes",
       "colour": "Patent Black",
@@ -8,15 +9,15 @@
       "quantity": "5"
     },
     {
+      "category": "Women's Footwear",
       "id": "2",
       "productName": "Suede Shoes",
       "colour": "Blue",
       "price": "42",
       "quantity": "4"
-    }
-  ],
-  "mensFootwear": [
+    },
     {
+      "category": "Men's Footwear",
       "id": "1",
       "productName": "Leather Driver Saddle Loafer",
       "colour": "Tan",
@@ -24,6 +25,7 @@
       "quantity": "122"
     },
     {
+      "category": "Men's Footwear",
       "id": "2",
       "productName": "Flip Flops",
       "colour": "Red",
@@ -31,15 +33,15 @@
       "quantity": "6"
     },
     {
+      "category": "Men's Footwear",
       "id": "3",
       "productName": "Flip Flops",
       "colour": "Blue",
       "price": "19",
       "quantity": "0"
-    }
-  ],
-  "womensCasualwear": [
+    },
     {
+      "category": "Women's Casualwear",
       "id": "1",
       "productName": "Gold Button Cardigan",
       "colour": "Black",
@@ -47,15 +49,15 @@
       "quantity": "6"
     },
     {
+      "category": "Women's Casualwear",
       "id": "2",
       "productName": "Cotton Shorts",
       "colour": "Medium Red",
       "price": "30",
       "quantity": "5"
-    }
-  ],
-  "mensCasualwear": [
+    },
     {
+      "category": "Men's Casualwear",
       "id": "1",
       "productName": "Fine Stripe Short Sleeve Shirt",
       "colour": "Grey",
@@ -63,15 +65,15 @@
       "quantity": "9"
     },
     {
+      "category": "Men's Casualwear",
       "id": "2",
       "productName": "Fine Stripe Short Sleeve Shirt",
       "colour": "Green",
       "price": "39.99",
       "quantity": "3"
-    }
-  ],
-  "womensFormalwear": [
+    },
     {
+      "category": "Women's Formalwear",
       "id": "1",
       "productName": "Bird Print Dress",
       "colour": "Black",
@@ -79,15 +81,15 @@
       "quantity": "10"
     },
     {
+      "category": "Women's Formalwear",
       "id": "2",
       "productName": "Mid Twist Cut-Out Dress",
       "colour": "Pink",
       "price": "540",
       "quantity": "5"
-    }
-  ],
-  "mensFormalwear": [
+    },
     {
+      "category": "Men's Formalwear",
       "id": "1",
       "productName": "Sharkskin Waistcoat",
       "colour": "Charcoal",
@@ -95,6 +97,7 @@
       "quantity": "2"
     },
     {
+      "category": "Men's Formalwear",
       "id": "2",
       "productName": "Lightweight Patch Pocket Blazer",
       "colour": "Deer",

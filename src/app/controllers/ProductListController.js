@@ -1,12 +1,9 @@
-const ProductListController = function(title, price, description, quantity) {
-  this.title = title;
-  this.price = price;
-  this.description = description;
-  this.quantity = quantity;
+const ProductListController = function() {
+  this.title = "Hello";
+  this.price = "£2.99";
+  this.quantity = 2;
+  this.colour = "Black";
 
-  this.blah = () => {
-    return 'blah'
-  }
 }
 
 module.exports = {
