@@ -3,10 +3,6 @@ import angular from 'angular';
 (function() {
   angular.module('app', ['prodListService'])
     .controller('ProductListController', function (prodListService) {
-      this.title = "Hello";
-      this.price = "£2.99";
-      this.quantity = 2;
-      this.colour = "Black";
 
       prodListService.getProductList()
         .then(response => {

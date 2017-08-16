@@ -1,9 +1,8 @@
-const ProductListController = function() {
-  this.title = "Hello";
-  this.price = "£2.99";
-  this.quantity = 2;
-  this.colour = "Black";
-
+const ProductListController = function(service) {
+  service.getProductList()
+    .then(response => {
+      this.allProducts = response.data.data
+    });
 }
 
 module.exports = {

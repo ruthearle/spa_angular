@@ -1,9 +1,11 @@
 import test from 'tape';
+
 import { ProductListService } from './ProductListService';
 
 let service;
 
-test.only('ProductListService', (t) => {
+test('ProductListService', (t) => {
+  const promise = new Promise();
   service = ProductListService;
 
   t.equal(typeof service, 'function');
@@ -23,7 +25,8 @@ test.only('ProductListService', (t) => {
       "price": "42",
       "quantity": "4"
     }]
-    assert.equal(service.allProducts(), products)
+
+    assert.equal(service.getProductList(), promise)
     assert.end();
   });
 
